@@ -80,6 +80,7 @@ textarea {
 	background:#fff;
 	margin: 0;
 	-webkit-appearance:none;
+	-webkit-border-radius: 0;
 	border:1px solid $base-input-border-color;
 	padding:3px 7px;
 	&:focus {
