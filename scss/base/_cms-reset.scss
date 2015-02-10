@@ -11,7 +11,7 @@ html {
 	max-height:1000000px;
 }
 
-ul, ol, dl, p, h1, h2, h3, h4, h5, h6, address, form, table, blockquote, applet, embed, object, iframe, frameset{margin:0 0 14px;}
+ul, ol, dl, p, h1, h2, h3, h4, h5, h6, address, form, table, blockquote, applet, embed, object, iframe, frameset{margin:0 0 $base-text-interval;}
 html, body, div, span, applet, embed, object, iframe, frameset,
 p, q, blockquote, sub, sup, a, abbr, acronym, font, img, small, center,
 h1, h2, h3, h4, h5, h6, b, strong, big, u, ins,
@@ -80,7 +80,11 @@ textarea {
 	background:#fff;
 	margin: 0;
 	-webkit-appearance:none;
+<<<<<<< HEAD
+	-webkit-border-radius:0;
+=======
 	-webkit-border-radius: 0;
+>>>>>>> 7a0a1b377061c5252304257170b60fbf0dfe7f49
 	border:1px solid $base-input-border-color;
 	padding:3px 7px;
 	&:focus {
@@ -119,7 +123,7 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';}
 blockquote{
 	border-left:4px solid #ccc;
 	padding-left:10px;
-	margin-left:14px; 
+	margin-left:$base-text-interval; 
 }
 sub,
 sup {
