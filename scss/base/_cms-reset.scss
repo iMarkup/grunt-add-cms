@@ -101,7 +101,10 @@ input[type="submit"] {
 	-webkit-appearance: button;
 	cursor: pointer;
 }
-input[type="search"] {-webkit-appearance: none;}
+input[type="search"] {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+}
 input[type="search"]::-webkit-search-cancel-button {-webkit-appearance: none;}
 input[type="search"]::-webkit-search-decoration {display:none;}
 h1, h2, h3, h4, h5, h6, b, strong, th{font-weight:bold;}
