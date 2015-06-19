@@ -83,6 +83,9 @@ textarea {
 	-webkit-border-radius:0;
 	border:1px solid $base-input-border-color;
 	padding:3px 7px;
+	@include placeholder {
+		color:$base-form-placeholder-color;
+	}
 	&:focus {
 		border-color: darken($base-input-border-color, 30%); 
 		//outline: none;
